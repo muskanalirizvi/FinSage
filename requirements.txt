@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+langgraph
+langchain
+langchain-google-genai
+langchain-groq
+tavily-python
+mcp[cli]<2
+uv
+python-dotenv
+pydantic
+yfinance
+requests
+langchain-mcp-adapters

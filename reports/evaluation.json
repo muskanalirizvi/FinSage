@@ -1,0 +1,124 @@
+[
+  {
+    "ticker": "TSLA",
+    "ok": true,
+    "seconds": 30,
+    "passes": 2,
+    "first_total": 7,
+    "first_flagged": 4,
+    "claims_kept": 6,
+    "risks_kept": 2,
+    "claims_dropped": 0,
+    "headline_replaced": false,
+    "has_financials": true,
+    "news_articles": 6,
+    "failed_tools": [],
+    "fallbacks": 0,
+    "first_pass_reasons": [
+      "Thesis: speculative (The source provides price and P/E ratios, but does not state they indicate a very high valuation.)",
+      "Thesis: speculative (The percentage is supported, but the claim adds upside potential judgment not found in the source.)",
+      "Risk: speculative (Share sale details are supported, but the phrase 'indicating insider-selling risk' is speculative.)",
+      "Risk: name the period by its end date (for example 'the quarter ended 2026-06-27'), not Q3 or FY2025"
+    ]
+  },
+  {
+    "ticker": "AMZN",
+    "ok": true,
+    "seconds": 25,
+    "passes": 2,
+    "first_total": 8,
+    "first_flagged": 3,
+    "claims_kept": 5,
+    "risks_kept": 2,
+    "claims_dropped": 0,
+    "headline_replaced": false,
+    "has_financials": true,
+    "news_articles": 6,
+    "failed_tools": [],
+    "fallbacks": 0,
+    "first_pass_reasons": [
+      "Thesis: speculative (Source gives P/E ratios but does not state valuation is near top of range.)",
+      "Risk: speculative (Source states share sale details but does not claim it indicates insider-sale risk.)",
+      "Risk: speculative (Source mentions a rating downgrade and macro risks, but not specific AWS margin pressures.)"
+    ]
+  },
+  {
+    "ticker": "META",
+    "ok": true,
+    "seconds": 35,
+    "passes": 3,
+    "first_total": 7,
+    "first_flagged": 2,
+    "claims_kept": 5,
+    "risks_kept": 1,
+    "claims_dropped": 1,
+    "headline_replaced": false,
+    "has_financials": true,
+    "news_articles": 6,
+    "failed_tools": [],
+    "fallbacks": 0,
+    "first_pass_reasons": [
+      "Risk: name the period by its end date (for example 'the quarter ended 2026-06-27'), not Q3 or FY2025",
+      "Risk: speculative (Source details downloads and DAUs but does not link them to spending scrutiny.)"
+    ]
+  },
+  {
+    "ticker": "JPM",
+    "ok": true,
+    "seconds": 27,
+    "passes": 2,
+    "first_total": 8,
+    "first_flagged": 1,
+    "claims_kept": 6,
+    "risks_kept": 2,
+    "claims_dropped": 0,
+    "headline_replaced": false,
+    "has_financials": true,
+    "news_articles": 6,
+    "failed_tools": [],
+    "fallbacks": 0,
+    "first_pass_reasons": [
+      "Risk: speculative (The source mentions the margin drop, but the term 'margin-compression risk' is an added interpretation.)"
+    ]
+  },
+  {
+    "ticker": "XOM",
+    "ok": true,
+    "seconds": 23,
+    "passes": 1,
+    "first_total": 6,
+    "first_flagged": 0,
+    "claims_kept": 5,
+    "risks_kept": 1,
+    "claims_dropped": 0,
+    "headline_replaced": false,
+    "has_financials": true,
+    "news_articles": 6,
+    "failed_tools": [
+      "get_sec_filing"
+    ],
+    "fallbacks": 0,
+    "first_pass_reasons": []
+  },
+  {
+    "ticker": "WMT",
+    "ok": true,
+    "seconds": 28,
+    "passes": 2,
+    "first_total": 8,
+    "first_flagged": 3,
+    "claims_kept": 4,
+    "risks_kept": 0,
+    "claims_dropped": 0,
+    "headline_replaced": false,
+    "has_financials": true,
+    "news_articles": 6,
+    "failed_tools": [],
+    "fallbacks": 0,
+    "first_pass_reasons": [
+      "Risk: speculative (Source mentions currency risk for lawsuits, but not specifically debt-related risk or currency exposure for the notes.)",
+      "Risk: speculative (Source mentions general business risks, but does not explicitly state interest rate exposure.)",
+      "Risk: speculative (Source notes the insider sale but does not call it a minor negative signal.)"
+    ]
+  }
+]
