@@ -1,6 +1,6 @@
 # Tesla, Inc. (TSLA) - Research Brief
 
-**Overall read (the model's opinion, not verified):** Neutral
+**Overall read (the model's opinion, not verified):** Bearish
 
 > Tesla, Inc. trades at $373.71, 25.1% below its 52-week high of $498.83; revenue for the quarter ended 2026-06-30 was $28.24B (+25.5% year over year).
 
@@ -10,7 +10,7 @@
 |---|---|
 | Price | $373.71 |
 | Market cap | $1.48T |
-| P/E (trailing / forward) | 346.03 / 172.34 |
+| P/E (trailing / forward) | 339.74 / 172.34 |
 | 52-week range | $297.38 - $498.83 |
 | Position in 52-week range | 37.9% of the way from low to high |
 | Latest 10-K filed | 2026-01-29 |
@@ -26,15 +26,16 @@
 
 ## Thesis
 
-- Tesla trades at $373.71 with a P/E of 346.03 and a forward P/E of 172.34. [stock]
-- The price is 25.1 % below the 52‑week high and 37.9 % of the way from the 52‑week low to the high. [stock]
-- The fiscal year ended 2025-12-31 revenue was $94.83 B, net income $3.85 B, and diluted EPS $1.08. [fin]
-- Quarter ended 2026‑06‑30 revenue was $28.24 B, operating income $398 M, net income $1.11 B, and diluted EPS $0.32. [fin]
+- The stock trades at $373.71 [stock]
+- Trailing P/E is 339.74 [stock]
+- The fiscal year ended 2025-12-31 revenue was $94.83 B, down 2.9% YoY [fin]
+- The fiscal year ended 2025-12-31 operating income was $4.36 B, down 38.5% YoY [fin]
 
 ## Risks
 
-- CFO Vaibhav Taneja sold 2,606 shares at $360.13. [news3]
-- Tesla stock fell 2.1 % to $354.72 on Oct 19 2026. [news1]
+- Seeking Alpha downgraded Tesla [news1]
+- The fiscal year ended 2025-12-31 net income was $3.85 B, down 46.1% YoY [fin]
+- The quarter ended 2026-06-30 2026 operating income was $398 M, down 56.9% YoY [fin]
 
 ## Data gaps and limitations
 
@@ -42,30 +43,31 @@
 
 ## Verification
 
-Checked 7 claims against their cited sources: 7 verified, 0 flagged.
-The draft was rewritten after verification (pass 1: 4 of 7 flagged, pass 2: 0 of 7 flagged).
+Checked 8 claims against their cited sources: 8 verified, 0 flagged.
+The draft was rewritten after verification (pass 1: 2 of 7 flagged, pass 2: 0 of 8 flagged).
 
 | # | Type | Claim | Source | Result |
 |---|---|---|---|---|
 | 1 | Headline | Tesla, Inc. trades at $373.71, 25.1% below its 52-week high of $498... | all | verified |
-| 2 | Thesis | Tesla trades at $373.71 with a P/E of 346.03 and a forward P/E of 1... | stock | verified |
-| 3 | Thesis | The price is 25.1 % below the 52‑week high and 37.9 % of the way fr... | stock | verified |
-| 4 | Thesis | The fiscal year ended 2025-12-31 revenue was $94.83 B, net income $... | fin | verified |
-| 5 | Thesis | Quarter ended 2026‑06‑30 revenue was $28.24 B, operating income $39... | fin | verified |
-| 6 | Risk | CFO Vaibhav Taneja sold 2,606 shares at $360.13. | news3 | verified |
-| 7 | Risk | Tesla stock fell 2.1 % to $354.72 on Oct 19 2026. | news1 | verified |
+| 2 | Thesis | The stock trades at $373.71 | stock | verified |
+| 3 | Thesis | Trailing P/E is 339.74 | stock | verified |
+| 4 | Thesis | The fiscal year ended 2025-12-31 revenue was $94.83 B, down 2.9% YoY | fin | verified |
+| 5 | Thesis | The fiscal year ended 2025-12-31 operating income was $4.36 B, down... | fin | verified |
+| 6 | Risk | Seeking Alpha downgraded Tesla | news1 | verified |
+| 7 | Risk | The fiscal year ended 2025-12-31 net income was $3.85 B, down 46.1%... | fin | verified |
+| 8 | Risk | The quarter ended 2026-06-30 2026 operating income was $398 M, down... | fin | verified |
 
 ## Sources
 
 - [stock] Stock data (yfinance)
 - [fin] Reported financials (SEC EDGAR XBRL data)
 - [sec] SEC filing metadata (EDGAR)
-- [news1] Tesla Stock News (Oct 19, 2026): TSLA Falls 2.1% to $354.72 | Gotrade (Mon, 19 Oct 2026) - https://www.heygotrade.com/en/news/tesla-tsla-stock-news-october-19-2026
-- [news2] Tesla: Finally, Time To Say Enough Is Enough (Downgrade) (NASDAQ:TSLA) | Seeking Alpha (Tue, 22 Sep 2026) - https://seekingalpha.com/article/4948696-tesla-finally-time-to-say-enough-is-enough-downgrade
-- [news3] Tesla, Inc. $TSLA Stock: RWQ Financial Management Services Inc. Cuts Holdings (Tue, 20 Oct 2026) - https://www.marketbeat.com/instant-alerts/filing-tesla-inc-tsla-stock-rwq-financial-management-services-inc-cuts-holdings-2026-10-20
-- [news4] Tesla Q3 Preview: FSD Could Be The Key Driver Of Profitability (Downgrade) (NASDAQ:TSLA) | Seeking Alpha (Mon, 19 Oct 2026) - https://seekingalpha.com/article/4955309-tesla-q3-preview-fsd-could-be-the-key-driver-of-profitability-downgrade
-- [news5] How High Can Tesla Stock Go Ahead of Q3 Earnings? TSLA Gains 3.8% to $368 — TradingView News (Tue, 20 Oct 2026) - https://www.tradingview.com/news/financemagnates:74ad2cf0f094b:0-how-high-can-tesla-stock-go-ahead-of-q3-earnings-tsla-gains-3-8-to-368
-- [news6] Schwab Network (Sat, 10 Oct 2026) - https://www.facebook.com/schwabnetwork/posts/october-8-2026-several-ai-related-stocks-fell-after-openai-told-investors-it-rea/1703677225092966
+- [news1] Tesla: Finally, Time To Say Enough Is Enough (Downgrade) (NASDAQ:TSLA) | Seeking Alpha (Tue, 22 Sep 2026) - https://seekingalpha.com/article/4948696-tesla-finally-time-to-say-enough-is-enough-downgrade
+- [news2] Wall Street's biggest banks posted higher revenue and ... () - https://www.facebook.com/Reuters/posts/wall-streets-biggest-banks-posted-higher-revenue-and-profit-for-q3-though-a-high/1701437261846999
+- [news3] Alphabet (NASDAQ:GOOGL) Stock Falls 1.1% After Analyst Downgrade (Tue, 20 Oct 2026) - https://www.marketbeat.com/instant-alerts/price-alphabet-nasdaq-googl-stock-falls-11-after-analyst-downgrade-2026-10-20
+- [news4] Form 4 TIDAL TRUST V For: 20 October (Tue, 20 Oct 2026) - https://ng.investing.com/news/stock-market-news/form-4-tidal-trust-v-for-20-october-93CH-2746568
+- [news5] Indonesia gets 'wake-up call' as MSCI prepares to expel it ... (Sun, 18 Oct 2026) - https://www.reuters.com/world/asia-pacific/msci-weighs-downgrading-indonesia-standalone-market-status-2026-10-15
+- [news6] Coupang (CPNG) Challenges Privacy Penalties, Is It Still 34% Below Fair Value? (Fri, 09 Oct 2026) - https://finance.yahoo.com/markets/stocks/articles/coupang-cpng-challenges-privacy-penalties-162116650.html
 
 ---
 *Automated research summary for educational purposes. Not financial advice.*

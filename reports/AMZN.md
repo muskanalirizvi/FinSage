@@ -1,6 +1,6 @@
 # Amazon.com, Inc. (AMZN) - Research Brief
 
-**Overall read (the model's opinion, not verified):** Neutral
+**Overall read (the model's opinion, not verified):** Bullish
 
 > Amazon.com, Inc. trades at $262.63, 8.6% below its 52-week high of $287.20.
 
@@ -10,7 +10,7 @@
 |---|---|
 | Price | $262.63 |
 | Market cap | $2.83T |
-| P/E (trailing / forward) | 21.13 / 25.15 |
+| P/E (trailing / forward) | 21.11 / 25.15 |
 | 52-week range | $196.00 - $287.20 |
 | Position in 52-week range | 73.1% of the way from low to high |
 | Latest 10-K filed | 2026-02-06 |
@@ -25,14 +25,14 @@
 
 ## Thesis
 
-- Share price is 8.6% below the 52‑week high [stock]
-- Trailing P/E is 21.13 and forward P/E is 25.15 [stock]
-- Net income for the fiscal year ended 2026‑06‑30 is $135.28 B, a 91.6% YoY increase [fin]
+- The stock trades at $262.63, a trailing P/E of 21.11 and forward P/E of 25.15. [stock]
+- Net income for the fiscal year ended 2026‑06‑30 was $135.28 B, a 91.6% YoY increase. [fin]
+- Morgan Stanley upgraded the price target to $350, citing five catalysts. [news2]
 
 ## Risks
 
-- CEO Douglas Herrington sold 6,362 shares [news2]
-- Analyst downgrade was issued [news4]
+- Heavy AI‑related capital spending drove free cash flow negative $7.6 B. [news6]
+- A one‑time non‑operating gain of $53.4 B from the Anthropic investment boosted EPS. [news1]
 
 ## Data gaps and limitations
 
@@ -40,17 +40,20 @@
 
 ## Verification
 
-Checked 6 claims against their cited sources: 6 verified, 0 flagged.
-The draft was rewritten after verification (pass 1: 3 of 8 flagged, pass 2: 0 of 6 flagged).
+Checked 7 claims against their cited sources: 6 verified, 1 flagged.
+The draft was rewritten after verification (pass 1: 1 of 7 flagged, pass 2: 2 of 7 flagged, pass 3: 2 of 6 flagged).
+The best draft (pass 1) is shown, because the last rewrite was worse.
+Claims that still failed were removed from the brief above and are listed below for transparency.
 
 | # | Type | Claim | Source | Result |
 |---|---|---|---|---|
 | 1 | Headline | Amazon.com, Inc. trades at $262.63, 8.6% below its 52-week high of ... | all | verified |
-| 2 | Thesis | Share price is 8.6% below the 52‑week high | stock | verified |
-| 3 | Thesis | Trailing P/E is 21.13 and forward P/E is 25.15 | stock | verified |
-| 4 | Thesis | Net income for the fiscal year ended 2026‑06‑30 is $135.28 B, a 91.... | fin | verified |
-| 5 | Risk | CEO Douglas Herrington sold 6,362 shares | news2 | verified |
-| 6 | Risk | Analyst downgrade was issued | news4 | verified |
+| 2 | Thesis | The stock trades at $262.63, a trailing P/E of 21.11 and forward P/... | stock | verified |
+| 3 | Thesis | Net income for the fiscal year ended 2026‑06‑30 was $135.28 B, a 91... | fin | verified |
+| 4 | Thesis | GAAP EPS of $5.75 was reported for the quarter ending 2026‑06‑27, b... | news1 | FLAGGED - number not found in source: 27 |
+| 5 | Thesis | Morgan Stanley upgraded the price target to $350, citing five catal... | news2 | verified |
+| 6 | Risk | Heavy AI‑related capital spending drove free cash flow negative $7.... | news6 | verified |
+| 7 | Risk | A one‑time non‑operating gain of $53.4 B from the Anthropic investm... | news1 | verified |
 
 ## Sources
 
@@ -58,11 +61,11 @@ The draft was rewritten after verification (pass 1: 3 of 8 flagged, pass 2: 0 of
 - [fin] Reported financials (SEC EDGAR XBRL data)
 - [sec] SEC filing metadata (EDGAR)
 - [news1] Why Amazon (AMZN) Stock Is Up Today — TradingView News (Mon, 19 Oct 2026) - https://www.tradingview.com/news/stockstory:aa57d1161094b:0-why-amazon-amzn-stock-is-up-today
-- [news2] Amazon.com (NASDAQ:AMZN) Stock Price Down 1.1% on Analyst Downgrade (Mon, 12 Oct 2026) - https://www.marketbeat.com/instant-alerts/price-amazoncom-nasdaq-amzn-stock-price-down-11-on-analyst-downgrade-2026-10-12
-- [news3] Amazon Stock (AMZN) Gains 5% Thanks to a New Price Target from Morgan Stanley - TipRanks.com (Mon, 19 Oct 2026) - https://www.tipranks.com/news/amazon-stock-amzn-gains-5-thanks-to-a-new-price-target-from-morgan-stanley
-- [news4] Amazon: The Economic Challenge Gets Bigger (Rating Downgrade) (NASDAQ:AMZN) | Seeking Alpha (Sun, 11 Oct 2026) - https://seekingalpha.com/article/4953334-amazon-economic-challenge-gets-bigger-rating-downgrade
-- [news5] AMZN Stock Set For Best Day In Three Months: Morgan Stanley Expects Amazon's AWS To Grow 47% In 2027, Denotes Stock As 'Top Pick' (Mon, 19 Oct 2026) - https://finance.yahoo.com/markets/stocks/articles/amzn-stock-set-best-day-174858785.html
-- [news6] Oracle Bonds Face Downgrade Risks As AI Trade Fizzles Across Tech Sector | TIKR.com (Tue, 20 Oct 2026) - https://www.tikr.com/blog/oracle-bonds-downgrade-risk-ai-trade-fizzles
+- [news2] Amazon Stock (AMZN) Gains 5% Thanks to a New Price Target from Morgan Stanley - TipRanks.com (Mon, 19 Oct 2026) - https://www.tipranks.com/news/amazon-stock-amzn-gains-5-thanks-to-a-new-price-target-from-morgan-stanley
+- [news3] Amazon Stock Edges Higher Monday: What's Going On? - Amazon.com (NASDAQ:AMZN) - Benzinga (Mon, 19 Oct 2026) - https://www.benzinga.com/trading-ideas/movers/26/10/62437798/amazon-stock-edges-higher-monday-whats-going-on
+- [news4] Palantir, Datadog and chip stocks bounce back as Amazon lifts Wall Street (Tue, 20 Oct 2026) - https://finance.yahoo.com/markets/article/palantir-datadog-and-chip-stocks-bounce-back-as-amazon-lifts-wall-street-204043191.html
+- [news5] Amazon stock pops after Morgan Stanley details 5 catalysts, lifts price target (Tue, 20 Oct 2026) - https://finance.yahoo.com/markets/stocks/article/amazon-stock-pops-after-morgan-stanley-details-5-catalysts-lifts-price-target-140841569.html
+- [news6] Prediction: Amazon Stock Will Soar After Oct. 29 (Mon, 19 Oct 2026) - https://finance.yahoo.com/markets/stocks/articles/prediction-amazon-stock-soar-oct-042000758.html
 
 ---
 *Automated research summary for educational purposes. Not financial advice.*

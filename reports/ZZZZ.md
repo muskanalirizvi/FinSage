@@ -38,7 +38,12 @@ No claims to verify.
 
 - [stock] Stock data (yfinance)
 - [sec] SEC filing metadata (EDGAR)
-- [news1] zzzz (Sun, 20 Sep 2026) - https://www.moomoo.com/community/feed/zzzz-117209326616581
+- [news1] Citi downgraded the stock from "neutral" to "sell" in a ... () - https://www.instagram.com/p/DeL8QsqlHhc
+- [news2] Are you headed to Hawaii, Mexico, or Japan? Chief ... () - https://www.facebook.com/AlaskasNewsSource/posts/are-you-headed-to-hawaii-mexico-or-japan-chief-meteorologist-melissa-frey-has-an/1543406421164753
+- [news3] R82 CLI Reference Guide (Mon, 28 Sep 2026) - https://sc1.checkpoint.com/documents/R82/WebAdminGuides/EN/CP_R82_CLI_ReferenceGuide/CP_R82_CLI_ReferenceGuide.pdf
+- [news4] Does It Feel Like Things Started Changing This Week? () - https://www.reddit.com/r/BetterOffline/comments/1x89me9/does_it_feel_like_things_started_changing_this
+- [news5] Digital Accept Secure Integration (Fri, 02 Oct 2026) - https://developer.cybersource.com/docs/cybs/en-us/digital-accept-flex/developer/all/rest/digital-accept-flex.html
+- [news6] Cisco IE3500 Series Switch Software Configuration Guide, ... (Mon, 28 Sep 2026) - https://www.cisco.com/c/en/us/td/docs/IIOT/switches/ie35xx/sw-config-guide/26-1-1/ie3500-262x-cg.pdf
 
 ---
 *Automated research summary for educational purposes. Not financial advice.*

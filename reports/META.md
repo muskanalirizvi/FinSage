@@ -10,7 +10,7 @@
 |---|---|
 | Price | $694.25 |
 | Market cap | $1.77T |
-| P/E (trailing / forward) | 26.16 / 20.04 |
+| P/E (trailing / forward) | 26.58 / 20.04 |
 | 52-week range | $520.26 - $779.82 |
 | Position in 52-week range | 67.0% of the way from low to high |
 | Latest 10-K filed | 2026-01-29 |
@@ -26,36 +26,38 @@
 
 ## Thesis
 
-- The stock trades at $694.25, 11.0% below its 52‑week high. [stock]
-- Trailing P/E is 26.16; forward P/E is 20.04, 23.4% lower than trailing multiple. [stock]
-- The fiscal year ended 2025-12-31 revenue $200.97 B, up 22.2% YoY. [fin]
-- The quarter ended 2026-06-30 2026 operating income $18.77 B, down 8.2% YoY. [fin]
+- The stock trades at $694.25, 11.0% below its 52‑week high [stock]
+- Forward P/E of 20.04 is 24.6% lower than trailing P/E of 26.58 [stock]
+- The fiscal year ended 2025-12-31 revenue increased 22.2% YoY to $200.97 B [fin]
+- The fiscal year ended 2025-12-31 operating income increased 20.0% YoY to $83.28 B [fin]
 
 ## Risks
 
-- Positive catalyst from Muse AI agent launch, with a $750 price target from Mizuho. [news3, 41 days old]
+- New Mexico jury ruled against Meta [news3]
+- Florida requested a court to block infinite scroll for teens [news3]
+- Child‑safety and addiction lawsuits highlighted in the BBC piece [news2]
+- Potential reversal of AI data‑center tax credits noted by the NYT [news4]
 
 ## Data gaps and limitations
 
 - News claims are checked against article titles and short snippets, not the full articles.
-- Source [news3] is 41 days old.
 
 ## Verification
 
-Checked 7 claims against their cited sources: 6 verified, 1 flagged.
-The draft was rewritten after verification (pass 1: 2 of 7 flagged, pass 2: 1 of 7 flagged, pass 3: 2 of 7 flagged).
-The best draft (pass 2) is shown, because the last rewrite was worse.
-Claims that still failed were removed from the brief above and are listed below for transparency.
+Checked 9 claims against their cited sources: 9 verified, 0 flagged.
+The draft was rewritten after verification (pass 1: 4 of 8 flagged, pass 2: 0 of 9 flagged).
 
 | # | Type | Claim | Source | Result |
 |---|---|---|---|---|
 | 1 | Headline | Meta Platforms, Inc. trades at $694.25, 11.0% below its 52-week hig... | all | verified |
-| 2 | Thesis | The stock trades at $694.25, 11.0% below its 52‑week high. | stock | verified |
-| 3 | Thesis | Trailing P/E is 26.16; forward P/E is 20.04, 23.4% lower than trail... | stock | verified |
-| 4 | Thesis | The fiscal year ended 2025-12-31 revenue $200.97 B, up 22.2% YoY. | fin | verified |
-| 5 | Thesis | The quarter ended 2026-06-30 2026 operating income $18.77 B, down 8... | fin | verified |
-| 6 | Risk | Investor defensiveness ahead of earnings for the quarter ended 2026... | news4 | FLAGGED - number not found in source: 30 |
-| 7 | Risk | Positive catalyst from Muse AI agent launch, with a $750 price targ... | news3 | verified |
+| 2 | Thesis | The stock trades at $694.25, 11.0% below its 52‑week high | stock | verified |
+| 3 | Thesis | Forward P/E of 20.04 is 24.6% lower than trailing P/E of 26.58 | stock | verified |
+| 4 | Thesis | The fiscal year ended 2025-12-31 revenue increased 22.2% YoY to $20... | fin | verified |
+| 5 | Thesis | The fiscal year ended 2025-12-31 operating income increased 20.0% Y... | fin | verified |
+| 6 | Risk | New Mexico jury ruled against Meta | news3 | verified |
+| 7 | Risk | Florida requested a court to block infinite scroll for teens | news3 | verified |
+| 8 | Risk | Child‑safety and addiction lawsuits highlighted in the BBC piece | news2 | verified |
+| 9 | Risk | Potential reversal of AI data‑center tax credits noted by the NYT | news4 | verified |
 
 ## Sources
 
@@ -63,11 +65,11 @@ Claims that still failed were removed from the brief above and are listed below 
 - [fin] Reported financials (SEC EDGAR XBRL data)
 - [sec] SEC filing metadata (EDGAR)
 - [news1] Meta Platforms, Inc. $META Stock: Snider Financial Group Decreases Holdings (Tue, 20 Oct 2026) - https://www.marketbeat.com/instant-alerts/filing-meta-platforms-inc-meta-stock-snider-financial-group-decreases-holdings-2026-10-20
-- [news2] META: Meta Stock Drops Ahead of Key Earnings. What Traders Will Be Watching. — TradingView News (Tue, 20 Oct 2026) - https://www.tradingview.com/news/tradingview:d6b10f4d3094b:0-meta-meta-stock-drops-ahead-of-key-earnings-what-traders-will-be-watching
-- [news3] Meta stock surges with Wall Street bullish on new AI agent (Wed, 09 Sep 2026) - https://finance.yahoo.com/markets/stocks/article/meta-stock-surges-with-wall-street-bullish-on-new-ai-agent-140959204.html
-- [news4] Why is Meta Platforms stock sliding today? (Mon, 19 Oct 2026) - https://www.investing.com/news/stock-market-news/why-is-meta-platforms-stock-sliding-today-93CH-4957820
-- [news5] Meta Q3 Earnings Preview: What Bernstein Expects from META Stock (Tue, 20 Oct 2026) - https://www.tipranks.com/news/meta-q3-earnings-preview-what-bernstein-expects-from-meta-stock
-- [news6] Meta's Muse AI agent hits 10.9 million downloads as ChatGPT slides 25% (Tue, 20 Oct 2026) - https://finance.yahoo.com/markets/article/metas-muse-ai-agent-hits-109-million-downloads-as-chatgpt-slides-25-153532560.html
+- [news2] Zuckerberg's image is in trouble - but Meta's business is booming (Thu, 08 Oct 2026) - https://www.bbc.com/news/articles/cq8rzjv8g7ejo
+- [news3] Meta Stock Falls as Florida Asks a Court to Switch Off Infinite Scroll for Teens - 24/7 Wall St. (Thu, 08 Oct 2026) - https://247wallst.com/investing/2026/10/08/meta-stock-falls-as-florida-asks-a-court-to-switch-off-infinite-scroll-for-teens
+- [news4] How Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes - The New York Times (Wed, 30 Sep 2026) - https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html
+- [news5] US court rules against Kalshi, says states can regulate prediction markets | Courts News | Al Jazeera (Fri, 25 Sep 2026) - https://www.aljazeera.com/news/2026/9/25/us-court-rules-against-kalshi-says-states-can-regulate-prediction-markets
+- [news6] Meta Platforms Drug Sale Criminal Case Halted by DOJ Leaders (1) (Thu, 15 Oct 2026) - https://news.bloomberglaw.com/us-law-week/meta-platforms-drug-sale-criminal-probe-halted-by-doj-officials
 
 ---
 *Automated research summary for educational purposes. Not financial advice.*
