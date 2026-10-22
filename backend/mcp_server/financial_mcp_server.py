@@ -369,9 +369,12 @@ def search_news(query: str, max_results: int = 6) -> dict:
           (only articles from the last 45 days; stock quote pages are skipped)
         - error: present only if the search failed
     """
+    import sys  # stderr is safe to print to; stdout is reserved for the MCP protocol
+
     try:
         api_key = os.getenv("TAVILY_API_KEY")
         if not api_key:
+            print("[search_news] TAVILY_API_KEY is missing", file=sys.stderr, flush=True)
             return {"query": query, "error": "TAVILY_API_KEY not found in .env file."}
 
         client = TavilyClient(api_key=api_key)
@@ -384,6 +387,7 @@ def search_news(query: str, max_results: int = 6) -> dict:
         return {"query": query, "articles": _merge_news(general, risks, max_results)}
 
     except Exception as e:
+        print(f"[search_news] failed: {type(e).__name__}: {e}", file=sys.stderr, flush=True)
         return {"query": query, "error": str(e)}
 
 
