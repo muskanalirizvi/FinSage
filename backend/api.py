@@ -216,3 +216,14 @@ async def research_stream(ticker: str, request: Request):
         sse(), media_type="text/event-stream",
         headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
     )
+    
+@app.get("/debug/news")
+def debug_news():
+    """TEMPORARY: runs the news tool directly so we can see its real error on Render."""
+    from backend.mcp_server.financial_mcp_server import search_news
+    result = search_news("Cisco CSCO stock")
+    return {
+        "tavily_key_set": bool(os.getenv("TAVILY_API_KEY")),
+        "error": result.get("error"),
+        "articles": [a["title"] for a in result.get("articles", [])],
+    }    
